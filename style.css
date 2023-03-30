@@ -31,9 +31,11 @@
         box-sizing: border-box;
         align-items: center;
         text-align: center;
+        max-width: 150% !important;
     }
     .container1 {
-        flex-direction: column;
+        flex-direction: column !important;
+        padding-inline: 0 !important;
     }
     .title {
         font-size: 30px;
@@ -45,21 +47,31 @@
     .container2 {
         flex-direction: column !important;
     }
+    .title1 {
+        text-align: center;
+    }
     .formm {
         margin-inline: auto !important;
     }
     .sign-in {
         text-align: center;
+        padding-inline: 0 !important;
     }
     .container4 {
         flex-direction: column !important;
+        padding-inline: 0 !important;
+        text-align: center;
+    }
+    .container6 {
+        padding-inline: 0 !important;
     }
     .container5 {
         flex-direction: column !important;
+        padding-inline: 0 !important;
     }
     .p1,
     .p2 {
-        text-align: left;
+        text-align: center;
     }
     .card-icon {
         align-items: center;
@@ -71,6 +83,7 @@
     }
     .container8 {
         flex-direction: column !important;
+        margin-bottom: 15px !important;
     }
     .form1 {
         width: 100% !important;
@@ -371,10 +384,10 @@
     align-items: center;
     padding: auto;
 }
-.container9 p{
- margin-top: 10px;
- font-size: 18px;
+.container9 p {
+    margin-top: 10px;
+    font-size: 18px;
 }
-.Bootcamp{
+.Bootcamp {
     margin-top: 25px;
 }
