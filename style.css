@@ -337,6 +337,7 @@
     color: black;
     padding-inline: auto;
     font-size: 35px;
+    text-align: center;
 }
 .container8 {
     margin-top: 20px;
@@ -362,8 +363,11 @@
     font-weight: bold;
 }
 .form1 {
-    background-color: rgb(247, 243, 243);
+    border-radius: 10px;
+    padding-inline: 10px;
+    background-color: rgb(246, 235, 235);
     width: 40%;
+    margin-bottom: 10px;
 }
 .container9 {
     display: flex;
@@ -375,19 +379,19 @@
     align-items: center;
 }
 .container9 button {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    font-size: 35px;
+    font-size: 40px;
     justify-content: center;
     align-items: center;
     padding: auto;
+    text-align: justify;
+    line-height: 20px;
+    font-weight: bold;
 }
-.container9 p {
-    margin-top: 10px;
-    font-size: 18px;
-}
+
 .Bootcamp {
     margin-top: 25px;
 }
